@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  background-color: aquamarine;
+}
+
+.header img {
+  width: 60px;
+}
+
+.header p {
+  font-size: 20px;
+  font-weight: bold;
+}
