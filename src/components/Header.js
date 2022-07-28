@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => (
   <div className="header">
     <img src={planet} alt="Uranus" />
-    <p>Dragon Crew Members</p>
+    <p>Dragon Crew</p>
   </div>
 );
 export default Header;

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 0 20px;
   background-color: aquamarine;
 }
 
@@ -13,4 +13,14 @@
 .header p {
   font-size: 20px;
   font-weight: bold;
+}
+
+@media screen and (min-width: 725px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: aquamarine;
+  }
 }
